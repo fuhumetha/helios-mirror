@@ -9,7 +9,6 @@ RUN apt install sudo
 
 RUN echo "Sudo :- it's ON"
 RUN sudo apt install wget curl -y
-RUN sudo apt-get install -y aria2
 
 RUN sudo fallocate -l 5G /swapfile
 RUN sudo chmod 600 /swapfile
